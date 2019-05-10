@@ -9,7 +9,7 @@ app = Flask(__name__)
 def json_success(json_msg, status=200):
     return Response(json_msg, status=status, mimetype='application/json')
 @app.route('/')
-def hello_world(url='http://l-qesaasdatanodessd9.ops.cn2.qunar.com:18102'):
+def hello_world(url=''):
     l=[]
     keys=[]
     result = es_sql.execute_sql(
