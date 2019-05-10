@@ -143,9 +143,9 @@ dmypy.json
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.npm-debug.log*
+*.yarn-debug.log*
+*.yarn-error.log*
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -179,7 +179,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+asserts/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
